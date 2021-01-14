@@ -85,7 +85,7 @@ onMessage(
   { adminOnly: true }
 );
 
-onMessage('status', async ({ message }) => {
+onMessage(/status/, async ({ message }) => {
   const mentions = message.mentions.users.array();
   let user = message.member.user;
 
