@@ -72,7 +72,7 @@ This command also allows the player access to the server automatically.
 ~auth status @PlayerName
 ```
 
-If run without tagging a player, `~auth status` will check your own status.
+If run without tagging a player, `~auth status` will check your own status. This command can be run by any Discord member.
 
 **Deleting a player from the database**
 
