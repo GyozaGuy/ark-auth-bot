@@ -1,0 +1,28 @@
+{
+  "name": "ark-auth-bot",
+  "version": "1.0.0",
+  "description": "Basic Discord bot to use with ark-auth-server",
+  "main": "index.mjs",
+  "scripts": {
+    "start": "nodemon index.mjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GyozaGuy/ark-auth-bot.git"
+  },
+  "author": "GyozaGuy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GyozaGuy/ark-auth-bot/issues"
+  },
+  "homepage": "https://github.com/GyozaGuy/ark-auth-bot#readme",
+  "dependencies": {
+    "discord.js": "^12.5.1",
+    "node-fetch": "^2.6.1",
+    "nodemon": "^2.0.7"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
